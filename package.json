@@ -1,0 +1,35 @@
+{
+  "name": "hack-todo-react-app",
+  "version": "1.0.0",
+  "description": "Simple ToDo List built with React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --progress --colors --hot",
+    "webpack": "webpack --progress --colors --json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicosesma/hack-TodoReactApp.git"
+  },
+  "author": "Nicolas Sesma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicosesma/hack-TodoReactApp/issues"
+  },
+  "homepage": "https://github.com/nicosesma/hack-TodoReactApp#readme",
+  "dependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "json-loader": "^0.5.4",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.26.0"
+  }
+}
